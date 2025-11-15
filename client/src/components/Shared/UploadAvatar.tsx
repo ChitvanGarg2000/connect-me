@@ -17,9 +17,7 @@ const UploadAvatar: React.FC<UploadAvatarProps> = ({ onFileUpload }) => {
       formData.append("file", files[0]);
       formData.append("upload_preset", "connectMe");
       const resp = await fetch(
-        `https://api.cloudinary.com/v1_1/${
-          import.meta.env.CLOUDINARY_CLOUD_NAME
-        }/image/upload`,
+        `https://api.cloudinary.com/v1_1/dymadmmby/image/upload`,
         {
           method: "POST",
           body: formData,
