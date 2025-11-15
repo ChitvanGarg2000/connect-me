@@ -27,7 +27,7 @@ const AddPost = withLoading(() => import("./pages/AddPost.tsx"), <Skeleton />);
 const MyPosts = withLoading(() => import("./pages/MyPosts.tsx"), <Skeleton />);
 
 const httpLink = createHttpLink({
-  uri: "https://connectme-obz8.onrender.com/graphql",
+  uri: "https://connect-me-irez.onrender.com/graphql",
 });
 
 const authLink = setContext((_, { headers }) => {
