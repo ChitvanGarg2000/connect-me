@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "proxy": "https://connectme-obz8.onrender.com",
+  "proxy": "https://connect-me-irez.onrender.com",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",

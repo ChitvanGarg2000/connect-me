@@ -27,7 +27,7 @@ const server = new ApolloServer({
 
 app.use(bodyParser.json());
 app.use(cors({
-  origin: 'https://connectme-obz8.onrender.com', 
+  origin: 'https://connect-me-irez.onrender.com', 
   credentials: true
 }));
 
