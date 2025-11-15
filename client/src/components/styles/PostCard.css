@@ -1,0 +1,6 @@
+.ant-card-body{
+    padding: 12px !important;
+    .ant-card-meta-title{
+        margin-bottom: 4px !important;
+    }
+}

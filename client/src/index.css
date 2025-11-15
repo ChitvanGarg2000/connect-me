@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  background-color: rgb(252, 3, 102);
+}
+
+
+.dropdown_container{
+
+    z-index: 3000 !important;
+    top: 50px !important;
+}
